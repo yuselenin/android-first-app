@@ -2,7 +2,7 @@
 Aplicación desarrollado en java para la plataforma de android, que sirve para rendir cuentas(rendicion de gastos). 
 Este proyecto fue desarrollado para el curso de Lenguaje de programación III.
 La Aplicación permite:
-* Permite al usuario elegir colores para poder reconocer fácilmente las categorías(Gastos habituales).
+* Al usuario elegir colores para poder reconocer fácilmente las categorías(Gastos habituales).
 * Registrar diariamente gastos.
 * Exportar en excel(Por mes).
 * y Otros.
