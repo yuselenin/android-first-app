@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+      <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/btnOption"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/btnOption"
+        android:orientation="horizontal"
+        android:paddingLeft="10sp"
+        android:weightSum="1">
+        <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="fill_parent"
+          android:orientation="horizontal"
+          android:layout_weight="0.38">
+          <TextView
+            android:id="@+id/lbl_Descripcion_gastos"
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent"
+            android:clickable="false"
+            android:focusable="false"
+            android:gravity="center_vertical"
+            android:text="Pasaje universitario"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+          </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.27"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/lblDescripcion_dato"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:clickable="false"
+                android:focusable="false"
+                android:gravity="center_vertical"
+                android:text="Papa a la huancaina"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </LinearLayout>
+
+        <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="fill_parent"
+          android:orientation="horizontal"
+          android:layout_weight="0.05">
+          <TextView
+            android:id="@+id/lbl_Cantidad"
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent"
+            android:clickable="false"
+            android:focusable="false"
+            android:gravity="center_vertical"
+            android:text="10"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+          </LinearLayout>
+        <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="fill_parent"
+          android:orientation="horizontal"
+          android:layout_weight="0.15">
+         <TextView
+             android:id="@+id/lbl_Costo"
+             android:layout_height="fill_parent"
+             android:layout_width="fill_parent"
+             android:clickable="false"
+             android:focusable="false"
+             android:gravity="center_vertical"
+             android:text="$ 500.00"
+             android:textAppearance="?android:attr/textAppearanceSmall" />
+         </LinearLayout>
+        <LinearLayout
+          android:layout_width="wrap_content"
+          android:layout_height="fill_parent"
+          android:orientation="horizontal"
+          android:layout_weight="0.15">
+         <TextView
+            android:id="@+id/lbl_Fecha"
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent"
+            android:clickable="false"
+            android:focusable="false"
+            android:gravity="center_vertical"
+            android:text="12-12-2012"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+         </LinearLayout>
+       </LinearLayout>
+  <ImageView
+      android:id="@+id/btnOption"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentRight="true"
+      android:layout_alignParentTop="true"
+      android:clickable="false"
+      android:focusable="false"
+      android:padding="10sp"
+      android:src="@drawable/listing3" />
+</RelativeLayout>

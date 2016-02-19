@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+    <LinearLayout
+        style="@style/backround"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:layout_weight="0.3"
+        android:weightSum="1" >
+        <Button
+	            android:id="@+id/button1"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="0.25"
+	            android:text="Registrar Gasto" 
+	            android:onClick="onDatos"/>
+	        <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content" 
+	            android:orientation="horizontal"
+	            android:layout_weight="0.25"
+	            android:weightSum="1">
+	            <Button
+	                android:id="@+id/button3"
+	                android:layout_width="wrap_content"
+	                android:layout_height="fill_parent"
+	                android:layout_weight="0.5"
+	                android:text="Categorias"
+	                android:onClick="onCategoria"/>
+	
+	            <Button
+	                android:id="@+id/button4"
+	                android:layout_width="wrap_content"
+	                android:layout_height="fill_parent"
+	                android:layout_weight="0.5"
+	                android:text="Gastos Fijos" 
+	                android:onClick="onGastos"/>
+	        </LinearLayout>
+	
+	        <Button
+	            android:id="@+id/reportarDatos"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="0.25"
+	            android:text="ver Reporte" 
+	            android:onClick="onListarDatos"/>
+	
+	        <Button
+	            android:id="@+id/button5"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="0.25"
+	            android:text="Exportar"
+	            android:onClick="onReportar" />
+	        
+	    	</LinearLayout>
+	    	<LinearLayout
+	            android:layout_width="fill_parent"
+	            android:layout_height="fill_parent" 
+	            android:orientation="horizontal"
+	            android:layout_weight="0.7">
+
+
+			</LinearLayout>	
+	</LinearLayout>
+
+</RelativeLayout>

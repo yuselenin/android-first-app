@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+  <TextView
+      android:id="@+id/lblTitles"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:layout_alignBottom="@+id/btnOptionTitle"
+      android:layout_alignParentTop="true"
+      android:layout_toLeftOf="@+id/btnOptionTitle"
+      android:clickable="false"
+      android:focusable="false"
+      android:gravity="center_vertical"
+      android:padding="5sp"
+      android:text="testing"
+      android:textSize="20sp" />
+  <ImageView
+      android:id="@+id/btnOptionTitle"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentRight="true"
+      android:layout_alignParentTop="true"
+      android:clickable="false"
+      android:focusable="false"
+      android:paddingBottom="5sp"
+      android:paddingLeft="5sp"
+      android:paddingRight="5sp"
+      android:paddingTop="5sp"
+      android:src="@drawable/listing3" />
+</RelativeLayout>

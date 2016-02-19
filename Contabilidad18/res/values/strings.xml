@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Contabilidad 18</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Acerca de</string>
+    <string name="app_main">Inicio</string>
+	<string name="text_help_categories">Solo escriba el numero del color que tiene como referencia aquí: 
+	</string>
+	<string name="part_1">1 Rojo \n 2 Rosa \n 3 Morado \n 4 Deep Purple \n 5 Indigo \n 6 Azul \n 7 Azul Claro</string>
+	<string name="part_2">8 Cian \n 9 Teal \n 10 Verde \n 11 Verde Claro \n 12 Lima \n 13 Amarillo</string>
+	<string name="part_3">14 Ambar \n 15 Naranja \n 16 Naranja Intenso \n 17 Marron \n 18 Gris \n 19 Gris Azulado</string>
+	<string name="action_buscar">Buscar</string>
+	<string name="action_nuevo">Nuevo</string>
+	<string name="action_ayuda">Ayuda</string>
+	<string name="textAbout">Este es un proyecto desarrollado por los alumnos de la Universidad Peruana Union. \n
+	    *Yuselenin Anquise Jihuaña \n
+	    *Roger Ticona Nina \n
+	   Ingeniería de Sistemas V Ciclo 		
+	    </string>
+	<string name="textIntro">La aplicación tiene la finalidad de facilitarte el registro
+	    de gatos especificamente esta orientado para los Becarios. \n
+	    Detalles: \n
+	    1. Permitira exportar en excel. \n
+	    2. Exportar cada mes \n
+	    3. y otros</string>
+</resources>
